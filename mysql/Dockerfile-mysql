@@ -1,0 +1,11 @@
+# Use official MySQL image
+FROM mysql:latest
+
+# Set environment variables for MySQL root password and database creation
+ENV MYSQL_ROOT_PASSWORD="Sopas_de_aj8!"
+ENV MYSQL_DATABASE="Mira_Transfermarkt"
+ENV MYSQL_USER="user_1"
+ENV MYSQL_PASSWORD="user_1_Sopas_de_aj8!"
+
+# Expose the MySQL port
+EXPOSE 3306

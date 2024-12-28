@@ -1,0 +1,24 @@
+# Use the official Python image
+FROM python:latest
+
+# Set the working directory inside the container
+WORKDIR /app
+
+# Copy the Python script and requirements file into the container
+COPY requirements.txt .
+
+# Install required dependencies
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy the entire Python app
+COPY . .
+
+# Set environment variables to connect to MySQL (optional)
+ENV MYSQL_HOST="mysql"
+ENV MYSQL_PORT=3306
+ENV MYSQL_USER="user_1"
+ENV MYSQL_PASSWORD="user_1_Sopas_de_aj8!"
+ENV MYSQL_DATABASE="Mira_Transfermarkt"
+
+# run sequentially python scripts
+CMD ["sh", "-c", "python CreateDB.py && python CreateTables.py && python ETL.py"]

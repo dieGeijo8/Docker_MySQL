@@ -1,0 +1,111 @@
+2024-12-28 15:14:02,769 - ERROR - Error creating the Database: 2003 (HY000): Can't connect to MySQL server on 'mysql:3306' (111)
+2024-12-28 15:14:02,858 - ERROR - Error in the connection with the DB: 2003 (HY000): Can't connect to MySQL server on 'mysql:3306' (111)
+2024-12-28 15:20:25,534 - ERROR - Error creating the Database: 2003 (HY000): Can't connect to MySQL server on 'mysql:3306' (111)
+2024-12-28 15:20:25,612 - ERROR - Error in the connection with the DB: 2003 (HY000): Can't connect to MySQL server on 'mysql:3306' (111)
+2024-12-28 15:25:19,225 - ERROR - Error creating the Database: 2003 (HY000): Can't connect to MySQL server on 'mysql:3306' (111)
+2024-12-28 15:25:19,305 - ERROR - Error in the connection with the DB: 2003 (HY000): Can't connect to MySQL server on 'mysql:3306' (111)
+2024-12-28 15:28:08,605 - INFO - Connected to MySQL server
+2024-12-28 15:28:08,606 - ERROR - Error creating the Database: 1044 (42000): Access denied for user 'user_1'@'%' to database 'Mira_Transfermarkt_2'
+2024-12-28 15:28:08,750 - INFO - Table 'teams_table' created successfully.
+2024-12-28 15:28:08,806 - INFO - Table 'transfers_table' created successfully.
+2024-12-28 15:28:08,849 - INFO - Table 'players_table' created successfully.
+2024-12-28 15:28:08,894 - INFO - Table 'market_values_table' created successfully.
+2024-12-28 15:28:08,937 - INFO - Table 'injuries table' created successfully.
+2024-12-28 15:28:08,938 - INFO - All tables created successfully, transaction committed.
+2024-12-28 15:29:07,300 - INFO - 20 records inserted successfully in teams table.
+2024-12-28 15:29:07,383 - INFO - 1241 records inserted successfully in transfers table.
+2024-12-28 15:29:07,414 - INFO - 829 records inserted successfully in players table.
+2024-12-28 15:29:07,449 - INFO - 829 records inserted successfully in market values table.
+2024-12-28 15:29:07,460 - INFO - 17 records inserted successfully in injuries table.
+2024-12-28 15:29:07,461 - INFO - All data inserted successfully, transaction committed.
+2024-12-28 15:31:45,862 - ERROR - Error creating the Database: 2003 (HY000): Can't connect to MySQL server on 'mysql:3306' (111)
+2024-12-28 15:31:45,950 - ERROR - Error in the connection with the DB: 2003 (HY000): Can't connect to MySQL server on 'mysql:3306' (111)
+2024-12-28 15:34:04,118 - INFO - Connected to MySQL server
+2024-12-28 15:34:04,120 - ERROR - Error creating the Database: 1044 (42000): Access denied for user 'user_1'@'%' to database 'Mira_Transfermarkt_2'
+2024-12-28 15:34:04,263 - INFO - Table 'teams_table' created successfully.
+2024-12-28 15:34:04,298 - INFO - Table 'transfers_table' created successfully.
+2024-12-28 15:34:04,329 - INFO - Table 'players_table' created successfully.
+2024-12-28 15:34:04,367 - INFO - Table 'market_values_table' created successfully.
+2024-12-28 15:34:04,403 - INFO - Table 'injuries table' created successfully.
+2024-12-28 15:34:04,404 - INFO - All tables created successfully, transaction committed.
+2024-12-28 15:34:59,314 - INFO - 20 records inserted successfully in teams table.
+2024-12-28 15:34:59,409 - INFO - 1241 records inserted successfully in transfers table.
+2024-12-28 15:34:59,439 - INFO - 829 records inserted successfully in players table.
+2024-12-28 15:34:59,472 - INFO - 829 records inserted successfully in market values table.
+2024-12-28 15:34:59,485 - INFO - 17 records inserted successfully in injuries table.
+2024-12-28 15:34:59,486 - INFO - All data inserted successfully, transaction committed.
+2024-12-28 15:47:09,967 - ERROR - Error creating the Database: 2003 (HY000): Can't connect to MySQL server on 'mysql:3306' (111)
+2024-12-28 15:47:10,057 - ERROR - Error in the connection with the DB: 2003 (HY000): Can't connect to MySQL server on 'mysql:3306' (111)
+2024-12-28 16:12:05,857 - ERROR - Error creating the Database: 2003 (HY000): Can't connect to MySQL server on 'mysql:3306' (111)
+2024-12-28 16:12:05,943 - ERROR - Error in the connection with the DB: 2003 (HY000): Can't connect to MySQL server on 'mysql:3306' (111)
+2024-12-28 16:13:05,743 - INFO - Connected to MySQL server
+2024-12-28 16:13:05,745 - ERROR - Error creating the Database: 1044 (42000): Access denied for user 'user_1'@'%' to database 'Mira_Transfermarkt_2'
+2024-12-28 16:13:05,887 - INFO - Table 'teams_table' created successfully.
+2024-12-28 16:13:05,920 - INFO - Table 'transfers_table' created successfully.
+2024-12-28 16:13:05,949 - INFO - Table 'players_table' created successfully.
+2024-12-28 16:13:05,982 - INFO - Table 'market_values_table' created successfully.
+2024-12-28 16:13:06,014 - INFO - Table 'injuries table' created successfully.
+2024-12-28 16:13:06,015 - INFO - All tables created successfully, transaction committed.
+2024-12-28 16:14:19,008 - INFO - 20 records inserted successfully in teams table.
+2024-12-28 16:14:19,110 - INFO - 1241 records inserted successfully in transfers table.
+2024-12-28 16:14:19,139 - INFO - 829 records inserted successfully in players table.
+2024-12-28 16:14:19,172 - INFO - 829 records inserted successfully in market values table.
+2024-12-28 16:14:19,180 - INFO - 17 records inserted successfully in injuries table.
+2024-12-28 16:14:19,181 - INFO - All data inserted successfully, transaction committed.
+2024-12-28 16:30:25,417 - ERROR - Error creating the Database: 2003 (HY000): Can't connect to MySQL server on 'mysql:3306' (111)
+2024-12-28 16:33:26,521 - ERROR - Error creating the Database: 2003 (HY000): Can't connect to MySQL server on 'mysql:3306' (111)
+2024-12-28 16:33:26,522 - INFO - Retrying in 10 seconds... (Attempt 2/5)
+2024-12-28 16:35:49,138 - ERROR - Error creating the Database: 2003 (HY000): Can't connect to MySQL server on 'mysql:3306' (111)
+2024-12-28 16:35:49,139 - INFO - Retrying in 10 seconds... (Attempt 2/5)
+2024-12-28 16:36:22,667 - ERROR - Error creating the Database: 2003 (HY000): Can't connect to MySQL server on 'mysql:3306' (111)
+2024-12-28 16:36:22,667 - INFO - Retrying in 10 seconds... (Attempt 2/5)
+2024-12-28 16:36:32,723 - INFO - Connected to MySQL server
+2024-12-28 16:36:32,729 - INFO - Database 'Mira_Transfermarkt' created or already exists.
+2024-12-28 16:36:32,731 - INFO - MySQL connection closed.
+2024-12-28 16:36:32,883 - INFO - Table 'teams_table' created successfully.
+2024-12-28 16:36:32,918 - INFO - Table 'transfers_table' created successfully.
+2024-12-28 16:36:32,948 - INFO - Table 'players_table' created successfully.
+2024-12-28 16:36:32,983 - INFO - Table 'market_values_table' created successfully.
+2024-12-28 16:36:33,014 - INFO - Table 'injuries table' created successfully.
+2024-12-28 16:36:33,015 - INFO - All tables created successfully, transaction committed.
+2024-12-28 16:36:33,016 - INFO - MySQL connection closed.
+2024-12-28 16:37:49,670 - INFO - 20 records inserted successfully in teams table.
+2024-12-28 16:37:49,764 - INFO - 1241 records inserted successfully in transfers table.
+2024-12-28 16:37:49,789 - INFO - 829 records inserted successfully in players table.
+2024-12-28 16:37:49,819 - INFO - 829 records inserted successfully in market values table.
+2024-12-28 16:37:49,827 - INFO - 17 records inserted successfully in injuries table.
+2024-12-28 16:37:49,828 - INFO - All data inserted successfully, transaction committed.
+2024-12-28 16:37:49,829 - INFO - MySQL connection closed.
+2024-12-28 16:57:33,005 - ERROR - Error creating the Database: 2003 (HY000): Can't connect to MySQL server on 'mysql:3306' (111)
+2024-12-28 16:57:33,006 - INFO - Retrying in 10 seconds... (Attempt 2/5)
+2024-12-28 16:57:43,007 - ERROR - Error creating the Database: 2003 (HY000): Can't connect to MySQL server on 'mysql:3306' (111)
+2024-12-28 16:57:43,008 - INFO - Retrying in 10 seconds... (Attempt 3/5)
+2024-12-28 16:57:53,057 - INFO - Connected to MySQL server
+2024-12-28 16:57:53,064 - INFO - Database 'Mira_Transfermarkt' created or already exists.
+2024-12-28 16:57:53,065 - INFO - MySQL connection closed.
+2024-12-28 16:57:53,200 - INFO - Table 'teams_table' created successfully.
+2024-12-28 16:57:53,237 - INFO - Table 'transfers_table' created successfully.
+2024-12-28 16:57:53,274 - INFO - Table 'players_table' created successfully.
+2024-12-28 16:57:53,317 - INFO - Table 'market_values_table' created successfully.
+2024-12-28 16:57:53,354 - INFO - Table 'injuries table' created successfully.
+2024-12-28 16:57:53,355 - INFO - All tables created successfully, transaction committed.
+2024-12-28 16:57:53,356 - INFO - MySQL connection closed.
+2024-12-28 16:58:58,609 - ERROR - Error creating the Database: 2003 (HY000): Can't connect to MySQL server on 'mysql:3306' (111)
+2024-12-28 16:58:58,610 - INFO - Retrying in 10 seconds... (Attempt 2/5)
+2024-12-28 16:59:08,651 - INFO - Connected to MySQL server
+2024-12-28 16:59:08,657 - INFO - Database 'Mira_Transfermarkt' created or already exists.
+2024-12-28 16:59:08,659 - INFO - MySQL connection closed.
+2024-12-28 16:59:08,785 - INFO - Table 'teams_table' created successfully.
+2024-12-28 16:59:08,822 - INFO - Table 'transfers_table' created successfully.
+2024-12-28 16:59:08,850 - INFO - Table 'players_table' created successfully.
+2024-12-28 16:59:08,884 - INFO - Table 'market_values_table' created successfully.
+2024-12-28 16:59:08,911 - INFO - Table 'injuries table' created successfully.
+2024-12-28 16:59:08,911 - INFO - All tables created successfully, transaction committed.
+2024-12-28 16:59:08,912 - INFO - MySQL connection closed.
+2024-12-28 17:00:27,642 - INFO - 20 records inserted successfully in teams table.
+2024-12-28 17:00:27,736 - INFO - 1241 records inserted successfully in transfers table.
+2024-12-28 17:00:27,766 - INFO - 829 records inserted successfully in players table.
+2024-12-28 17:00:27,801 - INFO - 829 records inserted successfully in market values table.
+2024-12-28 17:00:27,810 - INFO - 17 records inserted successfully in injuries table.
+2024-12-28 17:00:27,811 - INFO - All data inserted successfully, transaction committed.
+2024-12-28 17:00:27,812 - INFO - MySQL connection closed.
