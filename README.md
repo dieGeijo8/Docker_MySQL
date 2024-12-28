@@ -1,7 +1,7 @@
 # MySQL + Python App
 
 ## Prerequisites
-Make sure you have Docker and Docker Compose installed.
+Make sure you have Docker and Docker Compose installed and no processes running on your local machine on port 3306.
 
 ## How to Run
 Clone the repository and run from cmd:
