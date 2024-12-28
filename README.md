@@ -12,6 +12,7 @@ Clone the repository and run from cmd:
 
 Open a new cmd, you should be able to access the MySQL DB by running:
 - mysql -u root -p -h localhost -P 3306
+
 And entering the password:
 - Sopas_de_aj8!
 
