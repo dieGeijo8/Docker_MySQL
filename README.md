@@ -5,6 +5,7 @@ Make sure you have Docker and Docker Compose installed.
 
 ## How to Run
 Clone the repository and run from cmd:
+
 git clone https://github.com/dieGeijo8/Docker_MySQL.git
 cd Docker_MySQL
 docker build compose
