@@ -3,23 +3,23 @@ version: '3.8'
 services:
   mysql:
     build:
-      context: ./mysql  # Path to the MySQL directory
+      context: ./mysql_app  # Path to the MySQL directory
       dockerfile: Dockerfile-mysql  # MySQL Dockerfile
     networks:
       - my_network
     ports:
       - "3306:3306"
     volumes:
-    - ./my.cnf:/etc/mysql/my.cnf
+    - ./mysql_app/my.cnf:/etc/mysql_app/my.cnf
 
   python-app:
     build:
-      context: ./python_scripts  # Path to the Python application directory
+      context: ./python_app  # Path to the Python application directory
       dockerfile: Dockerfile-python  # Python Dockerfile
-    volumes:
-      - ./logs:/app/logs
     networks:
       - my_network
+    volumes:
+      - ./logs:/app/logs
     depends_on:
       - mysql
 
