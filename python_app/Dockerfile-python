@@ -14,7 +14,7 @@ COPY ExampleQueries_fromLocalURI.py .
 # Install required dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Set environment variables to connect to MySQL (optional)
+# Set environment variables to connect to MySQL 
 ENV MYSQL_HOST="mysql"
 ENV MYSQL_PORT=3306
 ENV MYSQL_USER="user_1"

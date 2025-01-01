@@ -10,6 +10,7 @@ The database is configured to be accessible from your local machine as well. How
 
 If MySQL is not installed on your local machine, you can still access the database from within either of the two containers created, as detailed below.
 
+The variables used to connect to MySQL are defined in the Docker files and can be modified there. Detailed information about the execution of the Python scripts is logged in the `logs/execution.log` file inside the Python container.
 
 # How to Run
 
