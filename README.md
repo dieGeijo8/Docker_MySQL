@@ -1,14 +1,12 @@
 # Prerequisites
 
-To run this project, ensure you have Docker installed on your machine.
+To run this project, make sure Docker is installed on your machine and that no processes are occupying port 3306, which is the default port used by MySQL.
 
 This project creates two Docker containers:
 1. **Python Container**: Executes scripts to create a MySQL database with five tables and populates them with data scraped from Transfermarkt.
 2. **MySQL Container**: Hosts the created MySQL database.
 
-The database is configured to be accessible from your local machine as well. However, to enable this functionality:  
-- MySQL must be installed locally.  
-- Ensure no other processes are occupying port 3306.  
+The database is configured to be accessible from your local machine as well. However, to enable this functionality MySQL must be installed locally.  
 
 If MySQL is not installed on your local machine, you can still access the database from within either of the two containers created, as detailed below.
 
