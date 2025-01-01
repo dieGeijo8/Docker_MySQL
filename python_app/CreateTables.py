@@ -11,7 +11,7 @@ MYSQL_DATABASE = os.getenv('MYSQL_DATABASE', 'Mira_Transfermarkt')
 MYSQL_PORT = 3306
 
 # configure logging
-log_file = "/app/logs/execution.log"
+log_file = "logs/execution.log"
 
 logging.basicConfig(
     filename=log_file,  # file path

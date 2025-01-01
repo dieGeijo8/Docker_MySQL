@@ -25,7 +25,8 @@ The variables used to connect to MySQL are defined in the Docker files and can b
    ```
 3. Build and start the containers:
    ```bash
-   docker-compose up --build
+   docker-compose build
+   docker-compose up
    ```
 Once the containers are running, you can query the database from various environments. 
 

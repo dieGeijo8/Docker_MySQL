@@ -10,7 +10,7 @@ MYSQL_USER = os.getenv('MYSQL_USER', 'root')
 MYSQL_PASSWORD = os.getenv('MYSQL_PASSWORD', 'Sopas_de_aj8!') 
 
 # configure logging
-log_file = "app/logs/execution.log"
+log_file = "logs/execution.log"
 
 logging.basicConfig(
     filename=log_file,  # file path
