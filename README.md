@@ -49,7 +49,7 @@ Once the containers are running, you can query the database from various environ
 ### Query the Database from Inside the Python Container
 1. Open a shell in the Python container:
   ```bash
-   mysql -u root -p -h localhost -P 3306
+   docker exec -it <container_name_or_id> /bin/bash
    ```
 2. Run the example query script:
   ```bash
