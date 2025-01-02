@@ -6,7 +6,7 @@ This project creates two Docker containers:
 1. **Python Container**: Executes scripts to create a MySQL database with five tables and populates them with data scraped from Transfermarkt.
 2. **MySQL Container**: Hosts the created MySQL database.
 
-The database is configured to be accessible from your local machine as well. However, to enable this functionality MySQL must be installed locally.  
+The database is configured to be accessible from your local machine as well. However, this functionality requires MySQL to be installed on your local machine.  
 
 If MySQL is not installed on your local machine, you can still access the database from within either of the two containers created, as detailed below.
 
@@ -14,7 +14,7 @@ The variables used to connect to MySQL are defined in the Docker files and can b
 
 ![My Image](DBschema.png)
 
-# How to Run
+## How to Run
 
 ### Steps:
 1. Clone the repository:
@@ -58,8 +58,7 @@ Once the containers are running, you can query the database from various environ
 This script connects to the database using a local URI and prints the first 10 rows from each table.
 
 ### Query the database from your local machine
-1. Ensure MySQL is installed and not using port 3306 for other processes.
-2. Access the database:
+1. Access the database:
    ```bash
    mysql -u root -p -h localhost -P 3306
    ```
