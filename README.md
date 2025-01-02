@@ -13,6 +13,8 @@ If MySQL is not installed on your local machine, you can still access the databa
 
 The variables used to connect to MySQL are defined in the Docker files and can be modified there. Detailed information about the execution of the Python scripts is logged in the `logs/execution.log` file inside the Python container.
 
+![My Image](DBschema.png)
+
 # How to Run
 
 ### Steps:
