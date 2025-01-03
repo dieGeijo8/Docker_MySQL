@@ -19,7 +19,7 @@ The variables used to connect to MySQL are defined in the Docker files and can b
 ### Steps:
 1. Clone the repository:
    ```bash
-   git clone https://github.com/dieGeijo8/Docker_MySQL.git
+   git clone https://github.com/dieGeijo8/Docker_MySQL
    ```
 2. Navigate to the project directory:
    ```bash
