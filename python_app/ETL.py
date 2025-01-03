@@ -352,7 +352,6 @@ try:
     records = list(teams_table.itertuples(index=False, name=None))
 
     cursor.executemany(insert_query, records)
-    connection.commit()
 
     logging.info(f"{cursor.rowcount} records inserted successfully in teams table.")
 
@@ -368,7 +367,6 @@ try:
     records = list(transfers_table.itertuples(index=False, name=None))
 
     cursor.executemany(insert_query, records)
-    connection.commit()
 
     logging.info(f"{cursor.rowcount} records inserted successfully in transfers table.")
 
@@ -380,7 +378,6 @@ try:
     data_to_insert = list(players_table.itertuples(index=False, name=None))
 
     cursor.executemany(insert_query, data_to_insert)
-    connection.commit()
 
     logging.info(f"{cursor.rowcount} records inserted successfully in players table.")
 
@@ -392,7 +389,6 @@ try:
     data_to_insert = list(market_values_table.itertuples(index=False, name=None))
 
     cursor.executemany(insert_query, data_to_insert)
-    connection.commit()
 
     logging.info(f"{cursor.rowcount} records inserted successfully in market values table.")
 
@@ -404,7 +400,6 @@ try:
     data_to_insert = list(injuries_table.itertuples(index=False, name=None))
 
     cursor.executemany(insert_query, data_to_insert)
-    connection.commit()
 
     logging.info(f"{cursor.rowcount} records inserted successfully in injuries table.")
     # Commit the transaction
